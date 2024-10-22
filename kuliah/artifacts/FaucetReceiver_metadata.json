@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_faucetAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "absorbToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"kuliah/faucet_receiver.sol": "FaucetReceiver"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"kuliah/Faucet.sol": {
+			"keccak256": "0x6277d20e9a0a24f1292072aa366c7810644f36605109b6515895b980295a6837",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54f313cbe81c6fa197b4f53c385ced882bf98b34f5eb88ae49b304f22958275e",
+				"dweb:/ipfs/QmTcgdXP2J73XSmk3syiumc9RZTJGfhWWzvQ83hJQdyn3U"
+			]
+		},
+		"kuliah/faucet_receiver.sol": {
+			"keccak256": "0x9d69b3a9e664a75949f05f3efb5f375473849338ce7bb5b9e37957677f39a61d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4516abfdd2f2f2a01dc55d67a429d3058691ba5d00689a1ebfbe717246d9df04",
+				"dweb:/ipfs/Qmb1ehppi5q7Qe96zUuQT7C9ECjyQuWA1VzTDNyr7qt4JJ"
+			]
+		}
+	},
+	"version": 1
+}

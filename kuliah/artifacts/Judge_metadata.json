@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"kuliah/challenge.sol": "Judge"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"kuliah/challenge.sol": {
+			"keccak256": "0x22a57af8115ce7e6bf8b804d79e80d33581e3fb1168931e1acf8a41aa4607ae3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5c5492958623d71f3894869e80b7f300c6053bb10c05c0d8525a689a428929c",
+				"dweb:/ipfs/QmeZQ7B6RoVpamSXqRBue2dM9MiKXFyKAsUMN5ynCqAnq9"
+			]
+		}
+	},
+	"version": 1
+}
