@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture/challenge.sol": "mentoring"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture/challenge.sol": {
+			"keccak256": "0xb7c37cf8eaffe112212960d5d6649ba960cf7e510fd689eecbc3b168f9f1ae86",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5085f368463a4a0fe695b76e751668244925724a51cc34efc30b5193466796c9",
+				"dweb:/ipfs/QmPbyQuTaFSZxgse2pS5QwkxHeRvXvnM1uHohBWzzXYtdY"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,24 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string[]",
-						"name": "candidatesName",
-						"type": "string[]"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "chairperson",
+				"name": "readValue",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,32 +21,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_voterAddress",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_voterAge",
+						"name": "_newValue",
 						"type": "uint256"
 					}
 				],
-				"name": "giveVotingRight",
+				"name": "storeValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "val",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_votedCandidate",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "voting",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -74,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lecture/TPS.sol": "TPS"
+			"mentoring/jawaban-latihan/StorageSmartContract.sol": "StorageContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -88,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lecture/TPS.sol": {
-			"keccak256": "0xd166d8a3560c2d369775499705741b62ec1fb2ec61028aadbf7991d3f8fa0b34",
+		"mentoring/jawaban-latihan/StorageSmartContract.sol": {
+			"keccak256": "0x9a3fdbaa0c3f7ff21e05c92e62c08b32312d17bb2480a13d8c2d6a2363ad4ab9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8aa1ad0b26266c2c4dde128a5ab67c4b888947e8bac9bf603a7452179dee2ba4",
-				"dweb:/ipfs/QmXrvBW8fTC3gxKjymRGrSMu2F5geoPKCLXVPxyZxMnw4B"
+				"bzz-raw://e20dc5598824f9e31ee89d7bda2939fc268653df39cff75199606eb96c8f0809",
+				"dweb:/ipfs/QmcFniLKQ5VXzDe3Pzdn5ebrJG6gA3m1m8Hmw88otJF1mS"
 			]
 		}
 	},

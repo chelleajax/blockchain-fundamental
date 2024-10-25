@@ -1,15 +1,13 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.13;
 
-contract Judge{
+contract mentoring{
     function check() public view returns (string memory){
-        if( msg.sender.balance > 1 ether){
-            return "Hari yang baik ya";
+        if(msg.sender.balance < 1 ether){
+            return "semangat";
         }
-        else if( msg.sender.balance < 1 ether){
-            return "Dunia ini sulit ya";
+        else if(msg.sender.balance > 1 ether){
+            return "keren";
         }
-        else {
-            return "";
-        }
+    }
 }

@@ -50,12 +50,11 @@ contract TPS {
         voters[_voterAddress].age = _voterAge;
     }
 
-    function voting(address _voterAddress, uint _votedCandidate) public {
-        Voter storage theOneWhoWillVote = voters[_voterAddress];
+    function voting(uint _votedCandidate) public {
+        Voter storage theOneWhoWillVote = voters[msg.sender];
 
         require(!theOneWhoWillVote.hasVoted, "The vote has already voted");
         theOneWhoWillVote.hasVoted = true;
         candidates[_votedCandidate - 1].voteCount++;
-
     }
 }
