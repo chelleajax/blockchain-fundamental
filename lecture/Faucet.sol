@@ -36,11 +36,13 @@ contract Faucet {
         require(withdrawAmount <= 0.1 ether, "Withdraw amount exceeds the limit");
 
         require(address(this).balance >= withdrawAmount, "Faucet empty, try again later");
+        
 
         (bool success, ) = msg.sender.call{value: withdrawAmount}("");
         require(success, "Transfer failed.");
     }
-
+    
+    // return faucet kita isinya ada brp duit
     function getFaucetBalance() public view returns (uint256) {
         return address(this).balance;
     }

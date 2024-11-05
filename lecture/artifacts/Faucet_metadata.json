@@ -49,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"kuliah/Faucet.sol": "Faucet"
+			"lecture/Faucet.sol": "Faucet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -63,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"kuliah/Faucet.sol": {
-			"keccak256": "0x6277d20e9a0a24f1292072aa366c7810644f36605109b6515895b980295a6837",
+		"lecture/Faucet.sol": {
+			"keccak256": "0x4586228362128d0bc33c9f9ee5df2549f868eeb97263b16fc94d1afb234086a8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://54f313cbe81c6fa197b4f53c385ced882bf98b34f5eb88ae49b304f22958275e",
-				"dweb:/ipfs/QmTcgdXP2J73XSmk3syiumc9RZTJGfhWWzvQ83hJQdyn3U"
+				"bzz-raw://e5b921fc6a9bcb7e0f41bb454b129325d067eb223462da3a2310b3fbdd955cda",
+				"dweb:/ipfs/QmRhpftjMkHFXqktcScYtpVPyUScbhGQdEd6Y4Qu7FwZp6"
 			]
 		}
 	},

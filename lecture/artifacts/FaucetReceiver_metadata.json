@@ -22,6 +22,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -37,7 +41,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"kuliah/faucet_receiver.sol": "FaucetReceiver"
+			"lecture/faucet_receiver.sol": "FaucetReceiver"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,20 +55,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"kuliah/Faucet.sol": {
-			"keccak256": "0x6277d20e9a0a24f1292072aa366c7810644f36605109b6515895b980295a6837",
+		"lecture/Faucet.sol": {
+			"keccak256": "0xd71f02dec604b31e1ad2b29d837b07319e486170da60de0aedd2fee496a0dd40",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://54f313cbe81c6fa197b4f53c385ced882bf98b34f5eb88ae49b304f22958275e",
-				"dweb:/ipfs/QmTcgdXP2J73XSmk3syiumc9RZTJGfhWWzvQ83hJQdyn3U"
+				"bzz-raw://bfde91c94e1ea2d41724bf373d7aec9eb5c6626ea00d2080ea91381b97cb1f6c",
+				"dweb:/ipfs/QmRRWwNNr1i1SJFU1YnPNpm6TCK5hX15NPasw18D2uLG6H"
 			]
 		},
-		"kuliah/faucet_receiver.sol": {
-			"keccak256": "0x9d69b3a9e664a75949f05f3efb5f375473849338ce7bb5b9e37957677f39a61d",
+		"lecture/faucet_receiver.sol": {
+			"keccak256": "0x21343e7ef388c2c8613f3aea74563412cef775fdb5bea678ecb32b5fc0e5e9a2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4516abfdd2f2f2a01dc55d67a429d3058691ba5d00689a1ebfbe717246d9df04",
-				"dweb:/ipfs/Qmb1ehppi5q7Qe96zUuQT7C9ECjyQuWA1VzTDNyr7qt4JJ"
+				"bzz-raw://67de7b80c7d047886b18a42350011db8620f207bcaaf05a319ab0738f2160bad",
+				"dweb:/ipfs/QmQweympUsmacjbkZ4uB1tmePY6mfA2L5SDiuXFq9LFYNc"
 			]
 		}
 	},

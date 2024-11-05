@@ -43,7 +43,8 @@ contract TPS {
     }
 
     // whitelist
-    function giveVotingRight(address _voterAddress, uint _voterAge) public {
+    function giveVotingRight(uint _voterAge) public {
+        address _voterAddress = msg.sender;
         require(msg.sender == chairperson, "only chairperson can give the right to vote");
         require(!voters[_voterAddress].hasVoted, "The voter has already voted");
         voters[_voterAddress].hasVoted = false;
